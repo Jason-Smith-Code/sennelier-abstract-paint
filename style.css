@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Utah';
+    src: url('/font/Utah-Bold.woff2') format('woff2'),
+        url('/font/Utah-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Utah',"Times New Roman", Times, serif;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Utah',"Times New Roman", Times, serif;
+    line-height: 1;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.white-text {
+    color: white;
+}
+
+.page-width {
+    width: 1200px;
+    margin: auto;
+}
+
+#logo-text {
+    letter-spacing: 8px;
+    
+}
+.logo-font-size {
+    font-family:"Times New Roman", Times, serif;
+    width: fit-content;
+    padding-bottom:3px;
+    font-size: 1.4em;
+    border-bottom: white 3px solid;
+    margin-bottom: 3px;
+}
+
+#logo-container {
+    width: fit-content;
+    border-bottom: 1px solid white
+}
+
+.main-subheading {
+    font-size: 1em;
+    letter-spacing: 10px;
+}
+
+section {
+    margin: 100px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.image-container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.product-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.square {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.opaque {
+    background-color: black;
+}
+
+.semi-transparent::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 21px 21px 0;
+    border-color: transparent black transparent transparent;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    min-height: 500px;
+}
+
