@@ -33,9 +33,21 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: black;
     width: 100%;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
+.social-top-bar {
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #414141;
+    padding-bottom: 5px;
+}
+
+.fa {
+    color: white;
+    font-size: 2em;
+    margin-left: 10px;
+}
 .white-text {
     color: white;
 }
@@ -60,7 +72,8 @@ header {
 
 #logo-container {
     width: fit-content;
-    border-bottom: 1px solid white
+    border-bottom: 1px solid white;
+    margin: 20px 0;
 }
 
 .main-subheading {
@@ -84,7 +97,6 @@ section {
     width: 100%;
     padding-top: 100%;
     position: relative;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
@@ -145,5 +157,6 @@ footer {
     width: 100%;
     color: white;
     min-height: 500px;
+    padding: 100px 0;
 }
 
