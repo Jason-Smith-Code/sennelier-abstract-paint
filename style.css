@@ -17,12 +17,18 @@ body {
     font-size: 1em;
 }
 
+/* FONT */
+
 p {
     font-family: 'Utah',"Times New Roman", Times, serif;
 }
 
 h1 {
     font-size: 5em;
+}
+
+h3 {
+    font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,6 +91,48 @@ section {
     margin: 100px 0;
 }
 
+/* SECTION: FEATURE GRID */
+#feature-grid {
+    background-color: black;
+    height: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#grid-item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-image: url("images/products/landscape.jpg");
+    background-size: cover;
+}
+
+#grid-item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    background-color: rgb(207, 169, 0);
+}
+
+#grid-item3 {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    background-image: url("images/products/pouches3.jpg");
+    background-size: cover;
+}
+
+#grid-item4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#grid-item5 {
+    grid-column: 2 / span 2;
+    grid-row: 3;
+    background-image: url("images/products/abstractpainting.jpg");
+    background-size: cover;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -142,7 +190,11 @@ section {
 .circle-container {
     display: flex;
     flex-direction: row;
-    margin: 10px 0;
+    align-items: center;
+}
+
+.product-title {
+    margin-bottom: 25px;
 }
 
 .circle {
@@ -150,6 +202,24 @@ section {
     height: 25px;
     border-radius: 50%;
     border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.opacity-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.product-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.margin-left-text {
+    margin-left: 5px;
 }
 
 footer {
