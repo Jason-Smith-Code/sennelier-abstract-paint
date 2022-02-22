@@ -458,8 +458,8 @@ const printinventory = () => {
                     '<div class="image-container">' +
                         '<img class="product-image" src=' + item.image +'>'+
                     '</div>'+
-                    '<h3>'  + item.title + '</h3>' +
-                    '<p class="product-title">[' + item.code + ']</p>' +
+                    '<h3 class="product-title">'  + item.title + '</h3>' +
+                    '<p class="product-code">[' + item.code + ']</p>' +
                     '<div class="product-row">' +
                         displayOpacity() + 
                         displayLightfastness() +
