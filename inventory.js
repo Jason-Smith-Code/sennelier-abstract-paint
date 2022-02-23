@@ -454,7 +454,7 @@ const printinventory = () => {
             }
         }
 
-        return  '<div class="item">' +
+        return  '<div class="item hidden">' +
                     '<div class="image-container">' +
                         '<img class="product-image" src=' + item.image +'>'+
                     '</div>'+
