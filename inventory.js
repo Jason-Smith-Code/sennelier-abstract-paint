@@ -412,6 +412,13 @@ const inventory = [
         lightfast: 3,
         code: "759"
     },
+    {
+        title: "Process Black",
+        image: "images/products/759.jpg",
+        opacity: 2,
+        lightfast: 3,
+        code: "759"
+    },
 ]
 
 
