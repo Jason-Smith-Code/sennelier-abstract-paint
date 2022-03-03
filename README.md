@@ -1,8 +1,33 @@
-This project was set by me, to take an existing product and brand, and re design a page to better showcase that product
-To express my skills with css, and animation
-To use Css Grid, something I haven't used very often.
-To explore LESS and find out why its popular.
+# Sennelier Web Page
 
-I will be referring to the original page http://www.sennelier-colors.com/en/Heavy-body-original-abstract_fiche_7372.html for product details. 
+👋 Hi, I’m @Jason-Smith-Code
 
-Make sure the site conforms to accessibility, and is mobile optimised, and optimised for speed.
+👀 I’m interested in 
+- Programming (Javascript)
+- Gaming ( RTS, FPS & ARPG's)
+
+📫 How to reach me 
+https://www.linkedin.com/in/jason-smith-193674187/
+
+
+## Description
+
+This project was set by me, to take an existing webpage and re-design a page to better showcase its product.
+
+The original page can be found here: http://www.sennelier-colors.com/en/Heavy-body-original-abstract_fiche_7372.html
+
+## Objective
+
+The main objective here was to familiarize myself CSS grid, and to make visual improvements in an alternative representation of an existing web page.
+I avoided building the navigation menu as the project was mainly about using CSS grid.
+
+## Screen Shots
+
+![Screenshot 1](images/screenshots/sennelier-abstract-screen-1.jpg)
+
+![Screenshot 2](images/screenshots/sennelier-abstract-screen-2.jpg)
+
+
+## Project status
+
+Complete
