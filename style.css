@@ -17,6 +17,22 @@ p {
     font-family: 'Utah',"Times New Roman", Times, serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+    border-left: 1px solid black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
 /* MOBILE */
 @media (min-width: 0px) { 
     body {
